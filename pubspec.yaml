@@ -1,0 +1,32 @@
+name: whistle_counter
+description: "An app to count cooker whistles and alert the user with a buzzer."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.1.0
+  carousel_slider: ^5.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/buzzer_sound.mp3
+    - assets/whistle1.png
+    - assets/whistle2.png
+    - assets/whistle3.png
